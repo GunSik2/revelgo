@@ -4,4 +4,5 @@ RUN go get github.com/revel/revel
 
 WORKDIR /go
 ENTRYPOINT dev/run.sh
+
 EXPOSE 9000
